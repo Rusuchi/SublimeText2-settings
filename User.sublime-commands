@@ -1,0 +1,5 @@
+[
+    { "caption": "Reveal in Finder", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+    { "caption": "Open terminal here", "command": "open_terminal" },
+    { "caption": "Open terminal in project folder", "command": "open_terminal_project_folder" }
+]
