@@ -28,5 +28,11 @@
         [
                 { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
         ]
+	},
+	// insert img tag for markdown
+	{ "keys": ["ctrl+shift+i"], "command": "insert_snippet", "args": {"contents": "![${1:alt_text}](${2:image_url}) $0"}, "context":
+        [
+                { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
+        ]
 	}
 ]
