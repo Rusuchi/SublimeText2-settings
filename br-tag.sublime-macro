@@ -1,0 +1,16 @@
+[
+	{
+		"args":
+		{
+			"characters": "<br"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " />"
+		},
+		"command": "insert"
+	}
+]

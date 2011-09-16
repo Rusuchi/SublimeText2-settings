@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/* @group ${1:description} */
+
+$0
+
+/* @end */
+]]></content>
+	<tabTrigger>group</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

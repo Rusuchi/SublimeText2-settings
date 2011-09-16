@@ -1,0 +1,32 @@
+[
+	{ "keys": ["super+shift+o"], "command": "prompt_open_folder"}, 
+	{ "keys": ["super+&"], "command": "encode_html_entities"},
+	{ "keys": ["ctrl+u"], "command": "upper_case"}, 
+	{ "keys": ["ctrl+shift+u"], "command": "lower_case"},
+	// inser br tag
+	{ "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/br-tag.sublime-macro"} },
+	// insert strong tag for HTML
+	{ "keys": ["super+shift+b"], "command": "insert_snippet", "args": {"contents": "<strong>$SELECTION</strong>"}, "context":
+        [
+                { "key": "selector", "operator": "equal", "operand": "text.html.basic" }
+        ]
+	},
+	// insert strong tag for markdown
+	{ "keys": ["super+shift+b"], "command": "insert_snippet", "args": {"contents": "**$SELECTION**"}, "context":
+        [
+                { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
+        ]
+	},
+	// insert em tag for HTML
+	{ "keys": ["super+shift+i"], "command": "insert_snippet", "args": {"contents": "<em>$SELECTION</em>"}, "context":
+        [
+                { "key": "selector", "operator": "equal", "operand": "text.html.basic" }
+        ]
+	},
+	// insert em tag for markdown
+	{ "keys": ["super+shift+i"], "command": "insert_snippet", "args": {"contents": "*$SELECTION*"}, "context":
+        [
+                { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
+        ]
+	}
+]
