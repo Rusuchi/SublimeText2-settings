@@ -4,8 +4,10 @@
 	{ "keys": ["ctrl+u"], "command": "upper_case"}, 
 	{ "keys": ["ctrl+shift+u"], "command": "lower_case"},
 	{ "keys": ["super+alt+shift+f"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
-	// inser br tag
+	// insert br tag
 	{ "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/br-tag.sublime-macro"} },
+	// insert nbsp
+	{ "keys": ["alt+space"], "command": "run_macro_file", "args": {"file": "Packages/User/nbsp.sublime-macro"} },
 	// insert strong tag for HTML
 	{ "keys": ["super+shift+b"], "command": "insert_snippet", "args": {"contents": "<strong>$SELECTION</strong>"}, "context":
         [

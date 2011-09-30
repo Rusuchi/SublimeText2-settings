@@ -2,7 +2,7 @@
 	{
 		"args":
 		{
-			"characters": "<br />"
+			"characters": "&nbsp;"
 		},
 		"command": "insert"
 	}
