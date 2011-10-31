@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+require_once(APPPATH.'controllers/frontend.php');
+
+Class ${1:Classname} extends Frontend {
+
+	public function index()
+    {
+        \$this->update_meta('${1}');
+    }
+}
+]]></content>
+	<tabTrigger>ci_front</tabTrigger>
+</snippet>

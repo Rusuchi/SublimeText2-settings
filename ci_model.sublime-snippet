@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<?php if (! defined('BASEPATH')) exit('No direct script access');
+
+class ${1:Classname} extends MY_Model {
+	
+	public \$id = '';
+
+	public function full_path()
+	{
+		if (\$this->image) {
+			return '/uploads/'.\$this->image;
+		}
+		return false;
+	}
+
+	public function show_url()
+	{
+		return 'model/show/'.\$this->id.'/'.url_title(convert_accented_characters(\$this->title), 'dash', TRUE);
+	}
+
+}
+]]></content>
+	<tabTrigger>ci_model</tabTrigger>
+</snippet>

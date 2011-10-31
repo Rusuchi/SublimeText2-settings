@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$route['${1:page}/(\d+)/[a-zA-Z 0-9~%.:_-]*'] = "${1}/show/\$1";
+]]></content>
+	<tabTrigger>ci_route</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

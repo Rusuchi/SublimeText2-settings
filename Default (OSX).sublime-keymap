@@ -4,6 +4,10 @@
 	{ "keys": ["ctrl+u"], "command": "upper_case"}, 
 	{ "keys": ["ctrl+shift+u"], "command": "lower_case"},
 	{ "keys": ["super+alt+shift+f"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+	
+	// move to EOL, insert ; and go to next line
+	{ "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/eol-terminator-lf.sublime-macro"} }, 
+
 	// insert br tag
 	{ "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/br-tag.sublime-macro"} },
 	// insert nbsp
