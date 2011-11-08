@@ -7,9 +7,9 @@ require_once(APPPATH.'controllers/frontend.php');
 Class ${1:Classname} extends Frontend {
 
 	public function index()
-    {
-        \$this->update_meta('${1}');
-    }
+	{
+		\$this->update_meta('${1}');
+	}
 }
 ]]></content>
 	<tabTrigger>ci_front</tabTrigger>

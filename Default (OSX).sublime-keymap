@@ -1,4 +1,6 @@
 [
+	{ "keys": ["ctrl+s"], "command": "focus_side_bar" },
+	{ "keys": ["ctrl+i"], "command": "reindent" },
 	{ "keys": ["super+shift+o"], "command": "prompt_open_folder"}, 
 	{ "keys": ["super+&"], "command": "encode_html_entities"},
 	{ "keys": ["ctrl+u"], "command": "upper_case"}, 

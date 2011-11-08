@@ -7,9 +7,9 @@ require_once(APPPATH.'third_party/gg_admin/controllers/backend.php');
 Class ${1:Classname} extends Backend {
 
 	public function index()
-    {
-        \$this->update_meta('${1}');
-    }
+	{
+		\$this->update_meta('${1}');
+	}
 }
 ]]></content>
 	<tabTrigger>ci_backend</tabTrigger>
