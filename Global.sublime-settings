@@ -1,7 +1,9 @@
 {
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"SublimeCodeIntel",
+		"SublimeLinter"
 	],
-	"theme": "Soda Light.sublime-theme"
+	"theme": "Soda Dark.sublime-theme"
 }

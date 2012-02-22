@@ -398,17 +398,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: List</string>
-			<key>scope</key>
-			<string>markup.list</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Markup: Raw</string>
 			<key>scope</key>
 			<string>markup.raw</string>
@@ -420,6 +409,17 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#75715E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Definition: Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
 			</dict>
 		</dict>
 	</array>

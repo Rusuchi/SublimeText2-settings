@@ -1,7 +1,6 @@
 {
-	"color_scheme": "Packages/User/Espresso GG.tmTheme",
-	"font_face": "Panic Sans",
-	"font_size": 12,
-
-	"detect_indentation": false
+	"color_scheme": "Packages/User/Monokai GG.tmTheme",
+	"detect_indentation": false,
+	"font_face": "Meslo LG M DZ",
+	"font_size": 13
 }

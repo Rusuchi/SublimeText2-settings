@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/User/Monokai GG.tmTheme",
+	"detect_indentation": false,
+	"font_face": "Meslo LG M DZ",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	],
+	"theme": "Soda Dark.sublime-theme"
+}
